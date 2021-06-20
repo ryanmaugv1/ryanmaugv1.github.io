@@ -8,6 +8,11 @@
       "type": "image/x-icon"
     },
     {
+      "src": "assets/favicon2.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
       "src": "assets/RyanLogo.png",
       "type": "image/png",
       "sizes": "130x48"
