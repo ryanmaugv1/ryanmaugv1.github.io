@@ -268,6 +268,43 @@ class Home extends React.Component {
       </div>
       {/* /PERSONAL PROJECTS SECTION */}
 
+      {/* PERSONAL PROJECTS SECTION */}
+      <div class="col-md-12 half-width pad-by-page personal-projects">
+        <h1 class="header2">ACCOMPLISHMENTS</h1>
+        <h4 class="subheader2">EXTRA THINGS I'M PROUD OF</h4>
+
+        <p>
+          <span class="lime-header">[2019] AWARDED LONDON'S TOP 25 UNDER 25 IN TECH</span>
+          <br />
+          <b>[ DESC ]</b> OUT OF 6000 TECH LEADERS, FOUNDERS AND INVESTORS AT 19 I WON THE "TOP 25 UNDER 25" IN LONDON AWARD.
+          <br />
+          <b>[ PROOF ] </b> 
+          <a href="https://www.cityam.com/meet-londons-25-under-25-up-and-coming-tech-stars/">
+            CITY A.M. NEWS ARTICLE NAMING WINNERS
+          </a>
+        </p>
+
+        <p>
+          <span class="lime-header">[2017] WORLDPAY FINTECH HACKATHON (PLACED 3RD)</span>
+          <br />
+          <b>[ DESC ]</b> DEVELOPED GROUP WEALTH MANAGEMENT APPLICATION.
+        </p>
+
+        <p>
+          <span class="lime-header">[2018] HATCH LONDON HACKATHON (PLACED 1ST)</span>
+          <br />
+          <b>[ DESC ]</b> DEVELOPED A CHATBOT FOR ASSISTING PREGNANT WOMEN.
+        </p>
+
+        <p>
+          <span class="lime-header">[2018] TECHCRUNCH DISRUPT LONDON (SEMI-FINAL QUALIFIER)</span>
+          <br />
+          <b>[ DESC ]</b> DEVELOPED CONTINUATION OF GROUP WEALTH MANAGEMENT APP.
+        </p>
+
+      </div>
+      {/* /PERSONAL PROJECTS SECTION */}
+
       {/* CONTACT SECTION */}
       <div class="col-md-12 half-width center pad-by-page">
         <h1 class="header2">CONTACT ME<span class="blinking-caret">|</span></h1>
