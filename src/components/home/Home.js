@@ -28,9 +28,9 @@ class Home extends React.Component {
           {/* SITE SECTIONS LIST */}
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" href="/">LINKEDIN</a>
-              <a class="nav-link" href="/">GITHUB</a>
-              <a class="nav-link" href="/">TWITTER</a>
+              <a class="nav-link" href="https://www.linkedin.com/in/ryan-maugin-665021126/">LINKEDIN</a>
+              <a class="nav-link" href="https://github.com/ryanmaugv1">GITHUB</a>
+              <a class="nav-link" href="https://twitter.com/ryanmaugv1">TWITTER</a>
               <a class="nav-link" href="/">BLOG (WIP)</a>
             </div>
           </div>
@@ -175,7 +175,7 @@ class Home extends React.Component {
         </p>
 
         <p>
-            <span class="lime-header">[ 2019 ] DESIGNED & DEVELOPED ARCHITECTURE FOR DATA SYNCING JOBS</span>
+            <span class="lime-header">[ 2019 ] DESIGNED & DEVELOPED ARCHITECTURE FOR MULTIPLE DATA SYNCING JOBS</span>
             <br />
             <b>[ WHERE ]</b> GOOGLE / ADSENSE / ICS TEAM
             <br />
@@ -214,7 +214,7 @@ class Home extends React.Component {
       {/* /PRO PROJECTS SECTION */}
 
       {/* PERSONAL PROJECTS SECTION */}
-      <div class="col-md-12 half-width pad-by-page">
+      <div class="col-md-12 half-width pad-by-page personal-projects">
         <h1 class="header2">HOBBY PROJECTS</h1>
         <h4 class="subheader2">MY PERSONAL/HOBBY WORK</h4>
 
@@ -223,7 +223,7 @@ class Home extends React.Component {
           <br />
           <b>[ DESC ]</b> IMPLEMENTED TRANSPILER FOR CUSTOM LANGUAGE IN PYTHON WITHOUT HELP FROM LIBRARIES.
           <br />
-          <b>[ GITHUB ]</b> GITHUB.COM/RYANMAUGIN/TACHYON
+          <b>[ GITHUB ]</b> <a href="https://github.com/ryanmaugv1/Tachyon">GITHUB.COM/RYANMAUGIN/TACHYON</a>
           <br />
           <b>[ NOTE ]</b> VERY OLD PROJECT BUT MY PROUDEST NONETHELESS.
         </p>
@@ -233,7 +233,7 @@ class Home extends React.Component {
           <br />
           <b>[ DESC ]</b> IG BROKERAGE REST API CLIENT IMPLEMENTATION IN PYTHON.
           <br />
-          <b>[ GITHUB ]</b> COMING SOON...
+          <b>[ GITHUB ]</b> <a href="https://github.com/ryanmaugv1/iglib-py">RYANMAUGV1/IGLIB-PY</a>
           <br />
           <b>[ NOTE ]</b> PART OF THE AUTOMATED FOREX TRADING SYSTEM BELOW THAT I DECIDED TO OPEN SOURCE.
         </p>
@@ -249,7 +249,7 @@ class Home extends React.Component {
           <br />
           <b>[ DESC ]</b> CREATED SPACEX TRAINING ENVIRONMENT & AGENT IN UNITY & C#.
           <br />
-          <b>[ GITHUB ]</b> GITHUB.COM/RYANMAUGV1/SPACE_RL
+          <b>[ GITHUB ]</b> <a href="https://github.com/ryanmaugv1/spacex_rl/tree/devel">RYANMAUGV1/SPACE_RL</a>
         </p>
 
         <p>
@@ -257,7 +257,7 @@ class Home extends React.Component {
           <br />
           <b>[ DESC ]</b> DESIGNED USING SKETCH/LUNACY & DEVELOPED USING BASIC WEB TECHNOLOGIES + REACT FRAMEWORK.
           <br />
-          <b>[ GITHUB ]</b> GITHUB.COM/RYANMAUGV1/PORTFOLIO
+          <b>[ GITHUB ]</b> <a href="https://github.com/ryanmaugv1/ryanmaugv1.github.io">RYANMAUGV1/RYANMAUGV1.GITHUB.IO</a>
         </p>
 
         <hr class="divider" />
