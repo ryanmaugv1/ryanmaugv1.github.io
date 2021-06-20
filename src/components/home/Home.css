@@ -1,30 +1,150 @@
-.jumbo {
-    position: absolute;
-    left: 50%;
-    top: 48%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 90%;
+.blinking-caret {
+    color: lime;
+    animation: blink-animation 1.5s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1.5s steps(5, start) infinite;
 }
 
-.jumbo .header {
+.navbar {
+    background-color: #121212 !important;
+}
+
+.nav-link {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-size: 14px;
+    margin: 3px 35px 0px 35px;
+}
+
+/* Remove default link style */
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.lime-header {
+    color: lime;
+}
+
+.divider {
+    color: white;
+    margin: 25px 0px;
+}
+
+.pad-by-page {
+    padding-bottom: 15vh !important;
+}
+
+.half-width {
+    padding: 0pc 20%;
+}
+
+.center {
+    text-align: center;
+}
+
+.header {
     font-size: 52pt;
     font-weight: bold;
+    text-align: center;
 }
 
-.jumbo .subheader {
+.subheader {
     font-size: 18pt;
     font-weight: bold;
     font-style: italic;
+    padding-bottom: 50px;
+    text-align: center;
 }
 
+.header2 {
+    font-size: 42pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subheader2 {
+    font-size: 16pt;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.jumbo {
+    padding: 42vh 5vh 40vh 5vh;
+    text-align: center;
+}
+
+.experience-graph {
+    text-align: center;
+}
+
+/* Average Phones Screen Width */
 @media only screen and (max-width: 990px) {
     .jumbo .header {
-        font-size: 32pt;
+        font-size: 38pt;
     }
     
     .jumbo .subheader {
         font-size: 16pt;
+    }
+
+    .center-content {
+        height: 75%;
+        width: 80%;
+    }
+
+    .center-content .mobile-paginator-spacing {
+        visibility: visible;
+    }
+    
+    .header2 {
+        font-size: 32pt;
+    }
+    
+    .subheader2 {
+        font-size: 12pt;
+    }
+
+    .half-width {
+        padding: 0pc 15%;
+    }
+
+    .nav-link {
+        margin: 3px 20px 0px 20px;
+    }
+}
+
+/* Smallest Phones Screen Width */
+@media only screen and (max-width: 550px) {
+    .jumbo {
+        padding: 35vh 5vh 40vh 5vh;
+        text-align: center;
+    }
+
+    .center-content {
+        height: 70%;
+    }
+
+    .header2 {
+        font-size: 32pt;
+    }
+    
+    .subheader2 {
+        font-size: 12pt;
+    }
+
+    .half-width {
+        padding: 0pc 10%;
+    }
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
     }
 }
