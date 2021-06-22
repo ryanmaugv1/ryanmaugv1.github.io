@@ -320,7 +320,7 @@ class Home extends React.Component {
         <h5>RYAN MAUGIN (<a href="https://twitter.com/ryanmaugv1">@RYANMAUGV1</a>)</h5>
         <h5><a href="mailto:ryanmaugin@icloud.com">RYANMAUGIN@ICLOUD.COM</a></h5>
         <h5><a href="https://github.com/ryanmaugv1">GITHUB.COM/RYANMAUGV1</a></h5>
-        <h5><a href="www.linkedin.com/in/ryanmaugin">LINKEDIN.COM/RYANMAUGIN</a></h5>
+        <h5><a href="https://www.linkedin.com/in/ryanmaugin">LINKEDIN.COM/RYANMAUGIN</a></h5>
         <br />
         <p style={{fontStyle: 'italic', opacity: 0.5}}>[EQUIRE FOR CV]</p>
       </div>
