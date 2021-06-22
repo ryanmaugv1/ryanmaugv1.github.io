@@ -9,7 +9,7 @@
 }
 
 .nav-link {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-family: 'Source Code Pro', monospace, Menlo, Monaco, Consolas, 'Courier New';
     font-size: 14px;
     margin: 3px 35px 0px 35px;
 }
@@ -20,7 +20,7 @@ a, a:hover, a:focus, a:active {
     color: inherit;
 }
 
-.personal-projects a {
+.custom-link-style a {
     text-decoration: underline;
 }
 
