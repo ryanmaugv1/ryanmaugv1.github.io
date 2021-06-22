@@ -28,7 +28,7 @@ class Home extends React.Component {
           {/* SITE SECTIONS LIST */}
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" href="https://www.linkedin.com/in/ryan-maugin-665021126/">LINKEDIN</a>
+              <a class="nav-link" href="www.linkedin.com/in/ryanmaugin">LINKEDIN</a>
               <a class="nav-link" href="https://github.com/ryanmaugv1">GITHUB</a>
               <a class="nav-link" href="https://twitter.com/ryanmaugv1">TWITTER</a>
               <a class="nav-link" href="/">BLOG (WIP)</a>
@@ -45,7 +45,7 @@ class Home extends React.Component {
           {/* MAIN HEADER SECTION */}
           <div class="col-md-12 jumbo">
             <h1 class="header">RYAN MAUGIN<span class="blinking-caret">|</span></h1>
-            <h4 class="subheader">X-GOOGLER / SOFTWARE CONSULTANT / ENGINEER</h4>
+            <h4 class="subheader">GOOGLER / SOFTWARE CONSULTANT / ENGINEER</h4>
             <h4 class="subheader2" style={{opacity: 0.5}}>(SCROLL DOWN)</h4>
           </div>
           {/* /MAIN HEADER SECTION */}
@@ -223,7 +223,7 @@ class Home extends React.Component {
           <br />
           <b>[ DESC ]</b> IMPLEMENTED TRANSPILER FOR CUSTOM LANGUAGE IN PYTHON WITHOUT HELP FROM LIBRARIES.
           <br />
-          <b>[ GITHUB ]</b> <a href="https://github.com/ryanmaugv1/Tachyon">GITHUB.COM/RYANMAUGIN/TACHYON</a>
+          <b>[ GITHUB ]</b> <a href="https://github.com/ryanmaugv1/Tachyon">RYANMAUGIN/TACHYON</a>
           <br />
           <b>[ NOTE ]</b> VERY OLD PROJECT BUT MY PROUDEST NONETHELESS.
         </p>
@@ -260,6 +260,14 @@ class Home extends React.Component {
           <b>[ GITHUB ]</b> <a href="https://github.com/ryanmaugv1/ryanmaugv1.github.io">RYANMAUGV1/RYANMAUGV1.GITHUB.IO</a>
         </p>
 
+        <p>
+          <span class="lime-header">[ 2021 ] 3D CHARACTER MODELLING & RIGGING IN BLENDER</span>
+          <br />
+          <b>[ DESC ]</b> CREATED 3D CHARACTER IN BLENDER FOR SOME SMALL GAMES I AM WORKING ON.
+          <br />
+          <b>[ DEMO ]</b> <a href="https://twitter.com/ryanmaugv1/status/1346747910566912000">VIDEO DEMO ON TWITTER</a>
+        </p>
+
         <hr class="divider" />
 
         <p style={{fontStyle: 'italic', opacity: 0.5}}>
@@ -269,7 +277,7 @@ class Home extends React.Component {
       {/* /PERSONAL PROJECTS SECTION */}
 
       {/* PERSONAL PROJECTS SECTION */}
-      <div class="col-md-12 half-width pad-by-page personal-projects">
+      <div class="col-md-12 half-width pad-by-page custom-link-style">
         <h1 class="header2">AWARDS</h1>
         <h4 class="subheader2">OTHER THINGS I'M PROUD OF</h4>
 
@@ -306,13 +314,13 @@ class Home extends React.Component {
       {/* /PERSONAL PROJECTS SECTION */}
 
       {/* CONTACT SECTION */}
-      <div class="col-md-12 half-width center pad-by-page">
+      <div class="col-md-12 half-width center pad-by-page custom-link-style">
         <h1 class="header2">CONTACT ME<span class="blinking-caret">|</span></h1>
         <h4 class="subheader2">WANT TO REACH OUT?</h4>
-        <h5>RYAN MAUGIN</h5>
-        <h5>RYANMAUGIN@ICLOUD.COM</h5>
-        <h5>GITHUB.COM/RYANMAUGV1</h5>
-        <h5>LINKEDIN.COM/RYANMAUGIN</h5>
+        <h5>RYAN MAUGIN (<a href="https://twitter.com/ryanmaugv1">@RYANMAUGV1</a>)</h5>
+        <h5><a href="mailto:ryanmaugin@icloud.com">RYANMAUGIN@ICLOUD.COM</a></h5>
+        <h5><a href="https://github.com/ryanmaugv1">GITHUB.COM/RYANMAUGV1</a></h5>
+        <h5><a href="www.linkedin.com/in/ryanmaugin">LINKEDIN.COM/RYANMAUGIN</a></h5>
         <br />
         <p style={{fontStyle: 'italic', opacity: 0.5}}>[EQUIRE FOR CV]</p>
       </div>
